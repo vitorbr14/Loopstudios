@@ -1,0 +1,83 @@
+@media only screen and (max-width: 1199px) {
+    .banner-texto {
+        width: 100%;
+    }
+    .nav-header ul {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+
+    .img-leader img {
+        width: 100%;
+    }
+    .square {
+        position: relative;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+  }
+@media only screen and (max-width: 767px) {
+    .banner {
+        background-image: url(/images/mobile/image-hero.jpg);
+    }
+    .square {
+        
+        padding: 40px;
+
+    }
+
+    .square h1 {
+        line-height: 35px;
+    }
+    .square p {
+        font-size: 16px;
+    line-height: 29px;
+    padding-top: 17px;
+    }
+    .banner-texto  {
+        margin-top: 200px;
+    }
+    .banner-texto h1 {
+        
+        padding: 26px;
+
+    }
+    .footer-inside {
+        justify-content: center; 
+    }
+    .nav {
+        justify-content: center;
+     }
+     .nav-footer li {
+         padding: 15px;
+     }
+
+    .social-icons {
+        text-align: center; }
+    .nav-footer ul {
+        display: block;  
+    }
+    .social-net span {
+        font-size: 13px;
+    }
+  }
+
+  @media only screen and (max-width: 575px) {
+    .square h1 {
+        
+        font-size: 35px;
+    }
+}
+  @media only screen and (max-width: 520px) {
+    .banner-texto h1 {
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .banner-texto h1 {
+        font-size: 40px;
+    }
+}
